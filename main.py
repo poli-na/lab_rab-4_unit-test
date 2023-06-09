@@ -3,7 +3,7 @@ import unittest
 from flask import Flask
 
 # Импортируем модуль, который хотим протестировать
-import your_module_name
+import code.py
 
 class YourAppTestCase(unittest.TestCase):
     def setUp(self):
